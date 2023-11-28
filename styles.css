@@ -1,34 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');/*se importa fuente Words Sands Castoro del documento
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0;/*El borde del documento es 0 no se muestra
+    padding: 0;/* El borde de las imagenes o texto es 0 no se muestra
 }
 
 body {
-    font-family: 'Castoro', serif;
+    font-family: 'Castoro', serif;/* El cuerpo del documento manejara la letra castoro, el serif agrega terminado de pincel extendido en las letras.
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;/*Permite hacer deslizamiento suave en la misma pagina
 }
 
 p {
-     color: rgb(85, 85, 85);
+     color: rgb(85, 85, 85); /*Le coloca el color a todos los parrafos
 }
 
 /* TRANSITION */
 
-a,
+a, /* toma todos links y define la transicion con los de la clase btn a 300 metros por segundo*/
 .btn {
-    transition: all 300ms ease;
+    transition: all 300ms ease;/*permite definir la transision entre dos estados del elemento*/
 }
 
 /* DESKTOP NAV */
 
-nav,
+nav,/*Toma todos los enlaces de navegacion */
 .nav-links {
-    display: flex;
+    display: flex;/*soluciona problemas de diseño y los adapta a dispositivos moviles*/
 }
 
 nav {
