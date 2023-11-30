@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');/*se importa fuente Words Sands Castoro del documento
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');/*se importa fuente Words Sands Castoro del documento*/
 
 * {
-    margin: 0;/*El borde del documento es 0 no se muestra
-    padding: 0;/* El borde de las imagenes o texto es 0 no se muestra
+    margin: 0;/*El borde del documento es 0 no se muestra*/
+    padding: 0;/* El borde de las imagenes o texto es 0 no se muestra*/
 }
 
 body {
-    font-family: 'Castoro', serif;/* El cuerpo del documento manejara la letra castoro, el serif agrega terminado de pincel extendido en las letras.
+    font-family: 'Castoro', serif;/* El cuerpo del documento manejara la letra castoro, el serif agrega terminado de pincel extendido en las letras.*/
 }
 
 html {
-    scroll-behavior: smooth;/*Permite hacer deslizamiento suave en la misma pagina
+    scroll-behavior: smooth;/*Permite hacer deslizamiento suave en la misma pagina*/
 }
 
 p {
-     color: rgb(85, 85, 85); /*Le coloca el color a todos los parrafos
+     color: rgb(85, 85, 85); /*Le coloca el color a todos los parrafos*/
 }
 
 /* TRANSITION */
@@ -39,8 +39,10 @@ nav {
 
 .nav-links {
     gap: 2rem;
-    list-style: none;
-    font-size: 1.5rem;
+    list-style:inside;
+    font-size: 2rem;
+    align-items: center;
+    display:ruby-text-container;
 }
 
 a {
@@ -257,4 +259,17 @@ section {
 
 .btn-container{
     gap: 1rem;
+}
+
+.footer {
+    background-color: (255,255,255);
+    text-align: center;
+    line-height: 3;
+    display: inline-block;
+    margin: 2rem 1rem;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position:fixed;/*permite movere el pie de pagina o footer*/
+    text-decoration:solid;
 }
