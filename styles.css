@@ -31,7 +31,7 @@ nav,/*Toma todos los enlaces de navegacion */
     display: flex;/*soluciona problemas de diseño y los adapta a dispositivos moviles*/
 }
 
-nav {
+#nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
@@ -148,7 +148,7 @@ a:hover {
 
 /* SECTION */
 
-section {
+#section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -277,4 +277,12 @@ section {
     position:fixed;/*permite mover el pie de pagina o footer*/
     text-decoration:solid;
 }
-
+#cuadro{
+    text-align:justify;
+    width: 1px;
+    left: 1px;
+    height: 1px;
+    bottom: 1px;
+    border-top-color: black;
+    border-top-right-radius: blue;
+}
