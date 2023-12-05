@@ -30,18 +30,18 @@ a, /* toma todos links y define la transicion con los de la clase btn a 300 metr
 
 nav,/*Toma todos los enlaces de navegacion */
 .nav-links {
-    display: flex;/*soluciona problemas de diseño y los adapta a dispositivos moviles*/
+    display:flex;/*soluciona problemas de diseño y los adapta a dispositivos moviles*/
 }
 
-#nav {
-    justify-content: space-around;
-    align-items: center;
+nav {
+    justify-content: space-around;/*deja un espacio entre los objetos del menu*/
+    align-items: center;/*Centra los objetos del menu*/
     height: 17vh;
 }
 
 .nav-links {
     gap: 2rem;
-    list-style:inside;
+    list-style: none;
     font-size: 1.5rem;
 }
 
@@ -246,7 +246,7 @@ a:hover {
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: none;
 }
 
 .btn-color-2 {
@@ -275,7 +275,7 @@ a:hover {
 
 .about-details-container {
     justify-content: center;
-    flex-direction: 2rem;
+    flex-direction: column;
 }
 
 .about-containers,
@@ -409,7 +409,7 @@ article .icon {
 }
 
 .contact-info-container p {
-    font-size: larger;
+    font-size: 2.5rem;
 }
 
 .contact-icon {
