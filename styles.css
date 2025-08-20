@@ -303,6 +303,50 @@ a:hover {
     text-align: center;
 }
 
+/* Education carousel should fit inside the card size */
+.education-carousel {
+    max-width: 100%;
+    margin-top: 0.75rem;
+}
+/* Do NOT set display on .carousel-item to avoid overriding Bootstrap's visibility logic */
+.education-carousel .carousel-item {
+    min-height: 140px; /* stable height */
+}
+.education-carousel .carousel-item > .d-flex {
+    min-height: 140px;
+    align-items: center;
+    justify-content: center;
+}
+.education-carousel img.icon { height: 2rem; }
+.education-carousel .carousel-control-prev,
+.education-carousel .carousel-control-next {
+    width: 12%; /* smaller hit area inside the card */
+}
+.education-carousel .carousel-control-prev-icon,
+.education-carousel .carousel-control-next-icon {
+    filter: invert(1) grayscale(100%); /* make icons dark on light background */
+    background-size: 1.6rem 1.6rem;
+}
+
+/* Show centered dot indicators below content */
+.education-carousel .carousel-indicators {
+    position: static; /* place under the slide content */
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+}
+.education-carousel .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #8a8a8a;
+    opacity: 1; /* solid dots */
+}
+.education-carousel .carousel-indicators .active {
+    background-color: #333;
+}
+
 .section-container {
     gap: 4rem;
     height: 80%;
