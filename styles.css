@@ -403,6 +403,16 @@ article .icon {
     position: relative;
 }
 
+.my-carousel {
+  max-width: 800px;  /* Ajusta el ancho a tu gusto */
+  margin: 0 auto;    /* Centra el carrusel */
+}
+
+.carousel img {
+  max-height: 400px;
+  object-fit: contain; /* Muestra la imagen completa */
+}
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);

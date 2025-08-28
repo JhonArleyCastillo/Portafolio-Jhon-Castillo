@@ -226,7 +226,7 @@
                   />
                   <div>
                     <h3>GitHub</h3>
-                    <p>6 meses</p>
+                    <p>2 años</p>
                   </div>
                 </article>
                 <article>
@@ -237,7 +237,7 @@
                   />
                   <div>
                     <h3>Python</h3>
-                    <p>4 meses</p>
+                    <p>2 años</p>
                   </div>
                 </article>  
               </div>
@@ -299,94 +299,55 @@
             class="icon arrow"
             onclick="location.href='#projects'"/>
       </section>
-      <section id="projects">
-  <p class="section_text_p1">Mis proyectos recientes</p>
-  <h1 class="title">Proyectos</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="assets/python-fastapi.jpg"
-                  alt="Cafetero 0"
-                  class="project-img"
-                  loading="lazy"
-                />
-                </div>
-                <h2 class="experience-sub-title project-title">Api con FastApi</h2>
-                <div class="btn-container">
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/JhonArleyCastillo/ovabackend'"
-                >
-                  Código Backend
-                </button>
-                </div>
-                <h2 class="experience-sub-title project-title">Frontend Asistente Lenguaje de señas</h2>
-                <div class="btn-container">
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/JhonArleyCastillo/ovafrontend'"
-                  >
-                  Código Frontend
-                  </button>
-                </div class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/JhonArleyCastillo/ovafrontend'"
-                  >
-                  Código Frontend
-                  </button>
-                </div>
-              </div>
-              <div class="details-container color-container">
-                <div class="article-container">
-                  <img
-                    src="assets/ASL-dataset.png"
-                    alt="Software con Inteligencia Artificial para reconocimiento de Lenguaje de Señas"
-                    class="project-img"
-                  loading="lazy"
-                  />
-                </div>
-                  <h2 class="experience-sub-title project-title">Software con Inteligencia Artificial para reconocimiento de Lenguaje de Señas</h2>
-                  <div class="btn-container">
-                    <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://huggingface.co/spaces/JhonArleyCastilloV/ASL_image'"
-                    >
-                    Demo
-                    </button>
-                    <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/JhonArleyCastillo/modelo_senas_tf'"
-                    >
-                    Código
-                    </button>
-                  </div>
-              </div>
-              <div class="details-container color-container">
-                <div class="article-container">
-                  <img
-                    src="assets/Reconocimiento-voz Proyecto 3.jpg"
-                    alt="Órdenes de voz aplicadas"
-                    class="project-img"
-                    loading="lazy"
-                  />
-                </div>
-                  <h2 class="experience-sub-title project-title">Órdenes de voz aplicadas</h2>
-                  <div class="btn-container">
-                    <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/JhonArleyCastillo/ovatk'"
-                    >
-                    Código
-                    </button>
-                    <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/JhonArleyCastillo/ovatk'"
-                    >
-                    Repositorio
-                    </button>
-                  </div>
+      <section id="projects"><p class="section_text_p1">Mis proyectos mas recientes</p>
+        <div class="container my-5">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card mx-auto text-center" style="max-width: 600px;">
+                    <img src="assets/python-fastapi.jpg" class="card-img-top" alt="FastApi">
+                    <div class="card-body">
+                      <h5 class="card-title">Backend con FastApi</h5>
+                      <p class="card-text">Proyecto de backend con FastAPI para manejar APIs de manera eficiente y escalable.</p>
+                      <a href="https://github.com/JhonArleyCastillo/ovabackend" target="_blank" class="btn btn-primary ">Código Backend</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card mx-auto text-center" style="max-width: 600px;">
+                    <img src="assets/ASL-dataset.png" class="card-img-top" alt="ASL_Dataset">
+                    <div class="card-body">
+                      <h5 class="card-title">Frontend Asistente Lenguaje de Señas</h5>
+                      <p class="card-text">Interfaz web para interactuar con modelos de lenguaje de señas en tiempo real.</p>
+                      <a href="https://github.com/JhonArleyCastillo/ovafrontend" target="_blank" class="btn btn-primary">Código Frontend</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card mx-auto text-center" style="max-width: 600px;">
+                    <img src="assets/Reconocimiento-voz Proyecto 3.jpg" class="card-img-top" alt="Reconocimiento_de_voz">
+                    <div class="card-body">
+                      <h5 class="card-title">IA para Reconocimiento de Lenguaje de Señas</h5>
+                      <p class="card-text">Software con inteligencia artificial capaz de reconocer lenguaje de señas usando modelos de visión computacional.</p>
+                      <a href="https://huggingface.co/spaces/JhonArleyCastilloV/ASL_image" target="_blank" class="btn btn-success">Demo</a>
+                      <a href="https://github.com/JhonArleyCastillo/modelo_senas_tf" target="_blank" class="btn btn-primary">Código</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
           <img
@@ -397,34 +358,34 @@
           />
       </section> 
       <section id="contact">
-  <p class="section_text_p1">Ponte en contacto</p>
-  <h1 class="title">Contáctame</h1>
-        <div class="contact-info-upper-container">
-          <div class="contact-info-container">
-            <img
-              src="./assets/gmail-logo.png"
-              alt="Icono de correo"
-              class="icon contact-icon email-icon"
-            />
+        <p class="section_text_p1">Ponte en contacto</p>
+        <h1 class="title">Contáctame</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img
+                src="./assets/gmail-logo.png"
+                alt="Icono de correo"
+                class="icon contact-icon email-icon"
+              />
             <p><a href="mailto:yoarcavi13@gmail.com">yoarcavi13@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img
+                src="./assets/linkedin.png"
+                alt="Icono de LinkedIn"
+                class="icon contact-icon"
+              />
+              <p><a href="https://www.linkedin.com/in/jhon-arley-castillo-vitovis-08b50b275">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img
+                src="./assets/wasap-icon.png"
+                alt="WhatsApp icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://wa.me/573204578232">3204578232</a></p>
+            </div>
           </div>
-          <div class="contact-info-container">
-            <img
-              src="./assets/linkedin.png"
-              alt="Icono de LinkedIn"
-              class="icon contact-icon"
-            />
-            <p><a href="https://www.linkedin.com/in/jhon-arley-castillo-vitovis-08b50b275">LinkedIn</a></p>
-          </div>
-          <div class="contact-info-container">
-            <img
-              src="./assets/wasap-icon.png"
-              alt="WhatsApp icon"
-              class="icon contact-icon"
-            />
-            <p><a href="https://wa.me/573204578232">3204578232</a></p>
-          </div>
-        </div>
       </section>
     <footer>
       <nav>
